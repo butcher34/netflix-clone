@@ -1,0 +1,225 @@
+*{
+    letter-spacing: 0!important;
+}
+body{
+    background-color: #00081d;
+    padding: 0% 3%;
+   
+    
+}
+text{
+    font-size: 20px;
+}
+header{
+    padding-top: 1rem;
+    padding-right: 0.5rem !important;
+    padding-bottom: 1rem;
+}
+svg{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgba(229, 9, 20, 1);
+    fill: currentColor;
+    display: block;
+}
+.singIn{
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 88%;
+    transition-duration: 250ms;
+    transition-property: background-color,border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    vertical-align: text-top;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 2rem;
+    min-width: 5rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229,9,20);
+    color: rgb(255,255,255);    
+}
+/**/
+ .GetStarted{
+    padding: 7% 5%;
+    border-radius: 14px;
+    min-height: 37.5rem;
+    background-size: 100%;
+    background-image: 
+    radial-gradient(93.75% 105.88% at 0.39% 99.26%,
+     rgba(150, 1, 7, 0.4) 1.42%,
+      rgba(30, 1, 66, 0.51) 53.8%,
+      rgba(13, 14, 32, 0) 100%),
+      linear-gradient(98.24deg, #1D0005 14.75%,
+       rgba(0, 8, 29, 0.48) 100%),
+      url(https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/323cd794-50a3-4000-a601-5375f0b3636a/EG-en-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+ }
+ .GetStarted h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+ }
+ .GetStarted p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 16px !important;
+ }
+ .readyTowatch{
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+    line-height: 1.875rem;
+ }
+ .GetStartedEmail{
+    background-color: #1e131b;
+    height: 59px;
+    border-color: #fafafa;
+    border-radius: 7px;
+    padding: 1% 2%;
+ }
+ .GetStartedBtn{
+    height: 57px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    margin: 5px;
+ }
+ /**/
+ .add{
+    min-height: 200px;
+    padding: 3% 8%;
+ }
+ .add h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+ }
+ .add p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+ }
+ .addTxt{
+    padding: 13% 0%;
+ }
+ .addImg1{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png);
+    background-size: contain;
+ }
+ .addImg2{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png);
+    background-size: contain;
+ }
+ .addImg3{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/en.png);
+    background-size: contain;
+    height: 400px;
+ }
+ .addImg4{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/en.png);
+    background-size: contain;
+    height: 400px;
+ }
+ /**/
+ .QA{
+    padding-left: 7%;
+    
+ }
+ .QA h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+ }    
+ .QA button{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.1rem;
+    background-color: rgba(19, 33, 68, 1);
+    color: rgba(255, 255, 255, 1);
+ }
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+.accordion:hover {
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgba(34, 51, 98, 1);
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active {
+    background-color: #2a2647;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: rgba(19, 33, 68, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0.625rem;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.5rem;
+    font-weight: 400;
+    float: right;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+      
+.active:after {
+    content: "\2715"; /* Unicode character for "minus" sign (-) */
+      color: rgba(255, 255, 255, 1);
+}
+/**/
+.readyTWatchQA {
+    margin: 20px;
+    color: white;
+}
+.readyTWatchQA button{
+    background-color: red;
+}
+.readyTWatchQA input{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+    background: rgb(25, 34, 71);
+    border-color: rgb(43, 184, 113);
+    
+
+}
+footer{
+    margin: 50px;
+    
+}
+footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+}
+footer h4{
+    padding-left: 8rem!important;
+}
+footer div{
+    padding-left: 8rem!important;
+}
+footer ul{
+    list-style: none;
+}
